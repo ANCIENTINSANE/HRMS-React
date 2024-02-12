@@ -1,0 +1,35 @@
+.dropdown-toggle::after {
+    display: none;
+}
+.nav-menu {
+    margin-left: 15px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-menu-minus {
+    right: 0;
+    margin-top: 4px;
+    cursor: pointer;
+    position: absolute;
+    margin-right: 2rem;
+}
+.nav-menu-plus {
+    right: 0;
+    margin-top: 8px;
+    cursor: pointer;
+    position: absolute;
+    margin-right: 2rem;
+}
+.nav-menu-icon {
+    margin-top: 11px;
+    margin-right: 22px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.navbar-nav .dropdown-menu {
+    border: none;
+}
+.background-color-change {
+    background-color: lightgray;
+  }
